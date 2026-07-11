@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मदत हस्ते - सामाजिक संस्था</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <h1>मदत हस्ते</h1>
+            <nav>
+                <a href="#about">आमच्याबद्दल</a>
+                <a href="#gallery">गॅलरी</a>
+                <button id="donateBtnTop" class="btn-primary">मदत करा (Donate)</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.jpg');">
+        <div class="hero-content">
+            <h2>एकमेका साह्य करू, अवघे धरू सुपंथ</h2>
+            <p>दिव्यांग आणि गरजू बांधवांच्या जीवनात आशेचा नवा किरण निर्माण करण्याचा आमचा छोटासा प्रयत्न.</p>
+            <button id="donateBtnHero" class="btn-lg">आता मदत करा</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container section">
+        <h3 class="section-title">आमचे कार्य</h3>
+        <p>आम्ही समाजातील दिव्यांग व्यक्तींना व्हीलचेअर वाटप, अन्नदान आणि आवश्यक वैद्यकीय मदत पोहोचवण्याचे काम करतो. तुमच्या एका छोट्याशा मदतीमुळे कोणाचे तरी आयुष्य बदलू शकते.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container section">
+        <h3 class="section-title">गॅलरी</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="images/gallery1.jpg" alt="सेवा कार्य १"></div>
+            <div class="gallery-item"><img src="images/gallery2.jpg" alt="सेवा कार्य २"></div>
+            <div class="gallery-item"><img src="images/gallery3.jpg" alt="सेवा कार्य ३"></div>
+        </div>
+    </section>
+
+    <!-- Donation Popup (Modal) -->
+    <div id="donateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>आर्थिक मदत करा</h3>
+            <p>खालील QR कोड स्कॅन करून तुम्ही तुमची मदत थेट पाठवू शकता.</p>
+            <div class="qr-container">
+                <!-- तुमचा QR कोड इथे येईल -->
+                <img src="images/qrcode.png" alt="QR Code" class="qr-img">
+            </div>
+            <p class="thank-you-msg">तुमच्या सहकार्याबद्दल धन्यवाद! 🙏</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 मदत हस्ते संस्था. सर्व हक्क सुरक्षित.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+​
